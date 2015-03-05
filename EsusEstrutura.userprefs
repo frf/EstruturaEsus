@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="EsusEstrutura/EsusEstrutura.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="/usr/bin/google-chrome-stable" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EsusEstrutura/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="EsusEstrutura/Controllers/HomeController.cs" Line="54" Column="54" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,12 @@
+/home/fabio/EsusEstrutura/EsusEstrutura/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/fabio/EsusEstrutura/EsusEstrutura/bin/EsusEstrutura.dll.mdb
+/home/fabio/EsusEstrutura/EsusEstrutura/bin/EsusEstrutura.dll
+/home/fabio/EsusEstrutura/EsusEstrutura/obj/Debug/EsusEstrutura.dll
+/home/fabio/EsusEstrutura/EsusEstrutura/obj/Debug/EsusEstrutura.dll.mdb
+/home/fabio/EsusEstrutura/EsusEstrutura/bin/Microsoft.Web.Infrastructure.dll
+/home/fabio/EsusEstrutura/EsusEstrutura/bin/System.Web.Razor.dll
+/home/fabio/EsusEstrutura/EsusEstrutura/bin/System.Web.Helpers.dll
+/home/fabio/EsusEstrutura/EsusEstrutura/bin/System.Web.WebPages.dll
+/home/fabio/EsusEstrutura/EsusEstrutura/bin/System.Web.WebPages.Deployment.dll
+/home/fabio/EsusEstrutura/EsusEstrutura/bin/System.Web.WebPages.Razor.dll
+/home/fabio/EsusEstrutura/EsusEstrutura/bin/System.Web.Mvc.dll
