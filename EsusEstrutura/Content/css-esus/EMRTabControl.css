@@ -1,0 +1,95 @@
+﻿body
+{
+}
+.cellcontent
+{
+	padding: 3px;
+	border-top: #efefef 1px solid;
+	border-left: #efefef 1px solid;
+	border-bottom: #efefef 1px solid;
+	background-color: #ffffff;
+	width:90%;
+	}
+.tablealetas
+{
+	width: 100px;
+	height: 100%;
+	color:#333333;
+}
+.td_selected
+{
+	border: #AAAAAA 1px solid;
+	padding:5px 0px 3px 2px;
+	text-align:center;
+	width:100%;
+}
+.td_unselected
+{
+	padding:5px 0px 3px 2px;
+	border-bottom: #efefef 1px solid;
+	border: #CCCCCC 1px solid;
+	text-align:center;
+	width:100%;
+}
+.tr_selected
+{
+	width: 100%;
+	cursor: hand;
+	height: 30px;
+}
+.tr_unselected
+{
+	width: 100%;
+	cursor: hand;
+	height: 30px;
+}
+.lasttab
+{
+	border-left: #efefef 1px solid;
+	height: 100%;
+}
+.tabcornerup
+{
+	background-image: url(gens_images/TabCornerUp.gif);
+	width: 8px;
+	height:5px;
+	font-size: 0px;
+}
+.tabcornerdown
+{
+	background-image: url(gens_images/TabCornerDown.gif);
+	width: 8px;
+	height:5px;
+	font-size: 0px;
+}
+.tabcornermiddle
+{
+	background-image: url(gens_images/TabCornerMiddle.gif);
+	width: 8px;
+	/*height:10px;*/
+	height:100%;
+	font-size:0px;
+	/*background-repeat:repeat-y;*/
+}
+
+.TabCaption 
+{
+	clear:both;
+    display:block;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:underline;
+    margin:0px 0px 5px 0px;
+    padding:0px 0px 5px 0px;
+    border-bottom:1px solid #C6CAC9;
+    background:transparent url(../../images/arrow_up.gif) no-repeat top right;
+}
+
+HR
+{
+	border-color:Aqua;
+}
+.EMRTabBody
+{
+	background-color: #ffffff;
+}

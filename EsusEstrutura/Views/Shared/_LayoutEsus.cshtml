@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" id="bkg">
+    <head>
+    <meta charset="utf-8">
+	<link href="Content/css-esus/AccordionYUI.css" type="text/css" rel="stylesheet" />
+	<link href="Content/css-esus/ContainerYUI.css" type="text/css" rel="stylesheet" />
+	<link href="Content/css-esus/Default.css" type="text/css" rel="stylesheet" />
+	<link href="Content/css-esus/EMRTabControl.css" type="text/css" rel="stylesheet" />
+	<link href="Content/css-esus/GensAccordion.css" type="text/css" rel="stylesheet" />
+	<link href="Content/css-esus/GensFlowchart.css" type="text/css" rel="stylesheet" />
+	<link href="Content/css-esus/jquery-ui.css" type="text/css" rel="stylesheet" />
+	<link href="Content/css-esus/MedPre.css" type="text/css" rel="stylesheet" />
+	<link href="Content/css-esus/PmWeb.css" type="text/css" rel="stylesheet" />
+	<link href="Content/css-esus/TreeViewYUI.css" type="text/css" rel="stylesheet" />
+	<title>e-SUS - DEV</title>
+	<meta content="Microsoft Visual Studio 7.0" name="GENERATOR" />
+	<meta content="C#" name="CODE_LANGUAGE" />
+	<meta content="JavaScript" name="vs_defaultClientScript" />
+	<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema" />
+	</head>
+	<body>		
+		<form name="PMWebForm" method="post" action="PMWeb.aspx?module=sys&amp;defaultUnit=34" id="PMWebForm">
+		  <div class="site">
+		    <div class="wrapperLeft" id="menu">
+		        <div class="topoBox">
+	                <span class="topoPrincipalLeft"></span><span class="topoDescricaoMiddle">Menu</span><span class="topoPrincipalRight" ></span>
+	            </div>
+	            <div class="conteudoDescricao">
+	                <div class="conteudoMenu" id="menu2">
+	                    <div id="MainMenu">
+							<span class="pmw-btn-lfm"></span>
+							<a class="pmw-btn-mid" onclick="clearPathItems();displayPathItems();" href="SystemConfiguration/SystemAdministrationMenu.aspx" target="Main">Cadastros</a><span class="pmw-btn-lf"></span><a class="pmw-btn-mid" onclick="clearPathItems();displayPathItems();" href="SystemConfiguration/SystemConfigurationMenu.aspx" target="Main">Configurações</a><span class="pmw-btn-lf"></span><a class="pmw-btn-mid" onclick="clearPathItems();displayPathItems();" href="SystemConfiguration/SystemConfigurationPEPMenu.aspx" target="Main">Configurações PEP</a><span class="pmw-btn-lf"></span><a class="pmw-btn-rgm" onclick="clearPathItems();displayPathItems();" href="Workflow/WorkflowMenu.aspx" target="Main">Configurações Workflow</a><span class="pmw-btn-lf"></span><a class="pmw-btn-rgm" onclick="clearPathItems();displayPathItems();" href="Administration/AdmReportsMenu.aspx" target="Main">Relatórios</a>
+						</div>
+	                </div>
+	            </div>
+	            <div class="rodapeBox">
+	            </div>
+	        </div>	  
+	        <div id="buttonDiv" style="filter: alpha(opacity=70); ZOOM: 1; height: 50px;" jQuery1425579518649="3"/></div>
+	        <div class="wrapperRight">
+                <table class="topoPrincipal" cellpadding="0" cellspacing="0" border="0">
+                   <tr>
+                       <td><img src="Content/images/topMainLeft.jpg"</td>
+                       <td class="topoPrincipalMiddle">
+                           <table id="MainPathTable" width="97%" class="pth" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><span id="MainPath"></span></td>
+								</tr>
+						</table>
+                       </td>
+                       <td><img src="Content/images/topMainRight.jpg"</td>
+                   </tr>
+               </table>
+ 	            <div class="conteudoPrincipal">
+                    @RenderBody()
+	            </div>
+	            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+	                <tr>
+	                    <td class="rodapePrincipalLeft">&nbsp;</td>
+	                    <td class="rodapePrincipalMiddle">&nbsp;</td>
+	                    <td class="rodapePrincipalRight">&nbsp;</td>
+	                </tr>
+	            </table>
+	        </div>
+	     </div>
+		<div class="rodape">
+		    <span class="logoRodape"></span>
+		    <div class="rodapeOpcoes">
+		        <span class="rodapeDivisor">
+	                <div id="updPanelRodape">
+	
+                            <table>
+	                            <tr>
+	                                <td>
+	                                    <span title="Usuário"><span id="labelUser">Mariana Balzani Bezerra</span>
+	                                    </span><span style="color:black"> - </span>
+                                    </td>
+	                                <td>
+	                                    <span title="Módulo">
+	                                        <select name="GensDropDownModule" id="GensDropDownModule" onchange="LoadDropDownUnits(this.value)" style="width:200px;">
+											<option selected="selected" value="Login.aspx?module=sys">ADM. DO SISTEMA</option>
+											<option value="Login.aspx?module=sch">AGENDAMENTO</option>
+											<option value="Login.aspx?module=alm">ALMOXARIFADO</option>
+											<option value="Login.aspx?module=spp">ARQUIVO M&#201;DICO</option>
+											<option value="Login.aspx?module=er">ATENDIMENTO</option>
+											<option value="Login.aspx?module=sur">CENTRO CIR&#218;RGICO</option>
+											<option value="Login.aspx?module=inf">ENFERMAGEM</option>
+											<option value="Login.aspx?module=sto">ESTOQUE</option>
+											<option value="Login.aspx?module=pha">FARM&#193;CIA</option>
+											<option value="Login.aspx?module=adm">FATURAMENTO</option>
+											<option value="Login.aspx?module=cls">HIGIENIZA&#199;&#195;O</option>
+											<option value="Login.aspx?module=adt">INTERNA&#199;&#195;O</option>
+											<option value="Login.aspx?module=snd">NUTRI&#199;&#195;O</option>
+											<option value="Login.aspx?module=sac">OUVIDORIA / SERV. SOCIAL</option>
+											<option value="Login.aspx?module=emr">PRONTU&#193;RIO ELETR&#212;NICO</option>
+											<option value="Login.aspx?module=clo">ROUPARIA</option>
+ 										</select>
+                                        </span><span style="color:black"> - </span>
+                                    </td>
+	                                <td>
+                                        <span title="Unidade">                                            
+								        <select name="DropDownListUnit" onchange="RegisterValue(this.value);setTimeout('__doPostBack(\'DropDownListUnit\',\'\')', 0)" id="DropDownListUnit" style="width:200px;">
+										<option value="220">HFI AACP</option>
+										<option value="168">HFI ADMISSAO E ALTA/NIR</option>
+										<option value="147">HFI ARQUIVO MEDICO</option>
+										<option value="153">HFI CCIH</option>
+										<option value="155">HFI CENTRO DE ESTUDOS</option>
+										<option value="158">HFI COMPRAS</option>
+										<option value="159">HFI COMUNICACAO E DIVULGACAO</option>
+										<option value="163">HFI COORDENACAO DE ADM.</option>
+										<option value="161">HFI CPL</option>
+										<option value="162">HFI DEPARTAMENTO PESSOAL</option>
+										<option value="164">HFI DIRECAO GERAL</option>
+										<option value="167">HFI DIVISAO DA UPE</option>
+										<option value="174">HFI ECONOMICO FINANCEIRO</option>
+										<option value="33">HFI FATURAMENTO</option>
+										<option value="166">HFI INFRAESTRUTURA</option>
+										<option value="160">HFI NTI</option>
+										<option value="233">HFI NUCLEO DE QUALIDADE E SEGURANCA </option>
+										<option value="171">HFI OUVIDORIA</option>
+										<option value="176">HFI PATRIMONIO</option>
+										<option value="173">HFI PLANEJAMENTO ADMINISTRATIVO</option>
+										<option value="157">HFI PROCESSO ADM DISCIPLINAR</option>
+										<option value="182">HFI SECRETARIA DA CIRURGIA GERAL</option>
+										<option value="183">HFI SECRETARIA DA CIRURGIA PLASTICA</option>
+										<option value="184">HFI SECRETARIA DA CIRURGIA VASCULAR</option>
+										<option value="185">HFI SECRETARIA DA CLINICA MEDICA</option>
+										<option value="186">HFI SECRETARIA DA COLOPROCTOLOGIA</option>
+										<option value="188">HFI SECRETARIA DA GINECOLOGIA</option>
+										<option value="190">HFI SECRETARIA DA NEUROCIRUGIA</option>
+										<option value="189">HFI SECRETARIA DA ORTOPEDIA</option>
+										<option value="191">HFI SECRETARIA DA UROLOGIA</option>
+										<option value="187">HFI SECRETARIA DO CTI</option>
+										<option value="205">HFI SERVICO DE CONTROLE E CONTRATOS</option>
+										<option value="178">HFI SERVICO SOCIAL</option>
+										<option selected="selected" value="34">HFI UPI 4 ANDAR</option>
+										<option value="63">HFI UPI 5 ANDAR</option>
+										<option value="64">HFI UPI 6 ANDAR</option>
+										<option value="65">HFI UPI CTI 1</option>
+										<option value="66">HFI UPI CTI 2</option>
+										</select>	
+                                        </span>
+                                        <input name="hiddenUnit" type="hidden" id="hiddenUnit" value="34" />		                    
+                                    </td>
+	                            </tr>
+	                        </table>
+						</div>                            
+                </span>
+                <span class="rodapeDivisor"> 
+                    <a title="Informações sobre as versões do Sistema" onclick="OpenAbout();return false;" href=""><img src="Content/images/ico_about.jpg" border="0" /></a> 
+                </span>
+                <span class="rodapeDivisor">
+                    <a title="Sair do Sistema" onclick="LogOff();" href=""><img src="Content/images/ico_logout.jpg" border="0" /></a>
+                </span>
+		    </div>
+	    </div>
+    </form>
+
+ 	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+ 
+	</body>
+</html>

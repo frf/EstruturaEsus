@@ -1,0 +1,833 @@
+﻿/*=================================================================*/
+/*|                 DEFAULT CSS                                   |*/
+/*|                                                               |*/
+/*| - Estilos das páginas do sistema                              |*/
+/*|                                                               |*/
+/*|                                                               |*/
+/*=================================================================*/
+
+/*-----------------------    CSS GERAL    ------------------------ */
+*
+{
+    font:normal normal normal 10px/normal verdana; 
+    /*color:#095070;*/
+}
+
+body, table, input, select, textarea, a, a:link, a:visited
+{
+    color:#095070;
+    font:normal normal normal 10px/normal verdana; 
+}
+
+/*-------------------------    HTML    -------------------------- */
+html
+{ 
+	background-color:#FFFFFF;
+}
+
+html#bkg
+{
+    background: #DAE7EC url(../../Content/images/background.jpg) repeat-x top left;
+}
+
+/*-------------------------    BODY    -------------------------- */
+
+body{margin:0px}
+
+
+/*-------------------     DIV PRINCIPAL    ---------------------- */
+
+div.index
+{
+	position:relative;
+	margin:0px auto;
+	width:985px;
+	padding:4px 2px 1px 4px ;
+	min-height:100%;
+	overflow:hidden;
+}
+div.site
+{
+	position:relative;
+	margin:0px auto;
+	width:985px;
+	padding:4px 2px 1px 4px ;
+	min-height:100%;
+	overflow:hidden;
+}
+
+div.suporte
+{
+    float:right;
+    margin-bottom:30px;
+}
+
+/*----------------------     LOGIN    ------------------------ */
+div.login
+{
+    clear:both;
+    margin:0px auto;
+    width:622px;
+    height:407px;
+    background: transparent url(../../Content/images/bkg_login.png) no-repeat center;
+}
+
+.tableLogin
+{
+    margin-left: 25px;
+    width: 580px;    
+}
+
+.tableLoginImage
+{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.tableLoginMessage
+{
+    text-align: center;
+    padding-left: 50px;
+}
+
+.tableLoginFields
+{
+    padding-left: 40px;
+}
+
+div.logo
+{
+    float:left;
+    margin:80px 0px 0px 65px ;
+}
+
+p.loginText
+{
+    width:225px;
+}
+p.loginText b{font-weight:bold}
+
+div.login input
+{
+    background:transparent url(../../Content/images/input_login.jpg) no-repeat top left;
+    width:180px;
+    height:18px;
+    padding:4px 0px 0px 10px;
+	margin:0px 0 10px 0;
+    border:0px;
+    color:#095070;    
+    font:normal normal normal 11px/normal verdana;
+}
+
+div.login select{margin:0px 0 10px 0;}
+
+div.positionBtnLogin
+{    
+	clear:both;
+	margin:10px 0 0 125px;
+}
+
+div.positionBtnChangePwd
+{
+	clear:both;
+	margin: -27px 0 0 0;
+	width: 120px;
+}
+
+div.login label
+{
+    clear:both;
+    display:block;
+    margin:5px 0px 3px 0px;
+}
+
+span.rotulo
+{
+    float:left;
+    clear:left;        
+    margin:5px 0px 3px 0px;
+}
+input, select
+{
+    float:left;
+    /*clear:left;        **/
+}
+
+div.rodapeLogin
+{
+	margin:0px auto;
+	position:absolute;
+	left:7px;
+	bottom:0;
+	width:97%;
+	display:block;
+	padding:10px;
+	text-align:center;
+	font-size:13px;
+	border-top:outset 2px #EAF2F5;
+	
+}
+
+div.rodapeLogin strong{font-size:13px;font-weight:bold}
+
+
+/*FIM LOGIN*/
+/*-----------------------------------------------------------------------------------*/
+
+
+/*------------------------      Organização das divs      ---------------------------*/
+
+div.wrapperLeft
+{
+    float:left;
+    overflow:hidden;
+	width:195px;
+}
+
+div#buttonDiv
+{
+    float:left;
+    margin:15px 2px 2px 2px;
+    background:#7391A9 url(../../Content/images/bkg_seta_hide.png) no-repeat center center;
+    width:10px;
+    border:1px solid #DDDDDD;
+    color:#FFFFFF;
+    font-weight:bolder;
+    cursor:pointer;
+}
+
+div.wrapperRight
+{
+    float:left;
+    overflow:hidden;
+	width:770px;
+}
+
+
+
+/*----------------------------    Principal     --------------------------------*/
+div.topoPrincipal, table.topoPrincipal
+{
+    width:100%;    
+    background:#84ACC5 url(../../Content/images/topoDescMiddle.png) repeat-x top center;
+    height:31px;
+}
+
+span.topoPrincipalLeft
+{
+    background:#84ACC5 url(../../Content/images/topoDescLeft.png) no-repeat top left;
+    height:31px;
+    width:10px;
+    float:left;
+}
+
+span.topoPrincipalLeft img{margin-top:10px;margin-left:2px}
+
+td.topoPrincipalMiddle
+{
+    width:760px   
+}
+span.topoPrincipalMiddle, .topoDescricaoMiddle
+{
+    min-height:21px;  
+    max-height:41px;  
+    float:left;
+    padding:10px 0px 0px 0px;
+    max-width:98%;
+}
+span.topoPrincipalRight
+{
+    background:#84ACC5 url(../../Content/images/topoDescRight.png) no-repeat top right;
+    height:31px;
+    float:right;
+    width:10px;
+}
+
+span.topoPrincipalRight img{margin-top:10px;margin-right:1px}
+
+/* Rodape principal */
+.rodapePrincipalMiddle
+{
+   width:97%;    
+   background:transparent url(gens_Content/images/bottomMiddle.png) repeat-x top center;
+   height:18px;
+}
+
+.rodapePrincipalLeft
+{
+    background:transparent url(gens_Content/images/bottomLeft.png) no-repeat top left;
+    height:18px;
+    width:10px;
+    float:left;
+}
+
+.rodapePrincipalRight
+{
+    background:transparent url(gens_Content/images/bottomRight.png) no-repeat top right;
+    height:18px;
+    float:right;
+    width:10px;
+}
+
+/*----------------------------    Conteudo     --------------------------------*/
+
+div.conteudoPrincipal
+{
+    /*width:99%;    */
+    border-left:1px solid #DCE5EC;
+    border-right:1px solid #DCE5EC;
+    background-color:#FFFFFF;
+    overflow:hidden;
+    padding:5px 2px 5px 5px ;
+}
+
+div.conteudoDescricao
+{
+    width:186px;    
+    border-left:1px solid #DCE5EC;
+    border-right:1px solid #DCE5EC;
+    background-color:#F4F9FD;
+    padding:5px 0 5px 8px;
+	overflow:hidden;
+}
+
+
+/*      Descricao | divs menores e conteudos internos a principal      */
+div.topoDescricao
+{
+    width:196px;    
+    background:#FFF url(../../Content/images/topoDescMiddle.png) repeat-x top left;
+    height:31px;
+}
+
+span.topoDescricaoLeft
+{
+    background:#f9fbff url(gens_Content/images/topoDescLeft.png) no-repeat top left;
+    height:31px;
+    width:10px;
+    float:left;
+}
+
+span.topoDescricaoRight
+{
+    background:#f9fbff url(gens_Content/images/topoDescRight.png) no-repeat top right;
+    height:31px;
+    float:right;
+    width:10px;
+}
+
+span.topoTransparentLeft
+{
+    background:#8DB1C9 url(gens_Content/images/topoDescLeft.png) no-repeat top left;
+    height:31px;
+    width:10px;
+    float:left;
+}
+
+span.topoTransparentRight
+{
+    background:#8DB1C9 url(../../Content/images/topoDescRight.png) no-repeat top right;
+    height:31px;
+    float:right;
+    width:10px;
+}
+
+/*----------------------------    MSGBox     --------------------------------*/
+
+div.Mensagem
+{
+    margin:30px auto;
+    width:600px;    
+    overflow:hidden;
+}
+
+#LabelMessage
+{
+    display:table;
+    width:300px;
+}
+
+#LabelMessage ul
+{
+    margin:0px;
+}
+
+div.modal
+{
+    margin:10px auto;
+    width:95%;    
+    overflow:hidden;
+}
+
+div.info
+{
+    height:90px;
+    *height:70px;
+    padding:0 30px 0 100px;
+    background:#D3E0EC url(../../Content/images/logo_totvs_small.jpg) no-repeat bottom left;
+}
+
+span.descriptionInfo
+{
+    font-weight:bold;
+}
+
+div.info p 
+{
+    padding:50px 0 0 0;
+    *padding:30px 0 0 0;
+    font-weight:bold;
+}
+
+div.topMsg
+{
+    width:100%;    
+    background:#FFFFFF url(../../Content/images/topMsgMiddle.png) repeat-x top center;
+    height:32px;
+    float:left;
+}
+
+/*muda cor do fundo*/
+span.topMensagemLeft
+{
+    background:#7FA9C1 url(../../Content/images/topMsgLeft.png) no-repeat top left;
+    height:31px;
+    width:10px;
+    float:left;
+}
+/*muda cor do fundo*/
+span.topMensagemRight
+{
+    background:#7FA9C1 url(../../Content/images/topMsgRight.png) no-repeat top right;
+    height:31px;
+    float:right;
+    width:10px;
+}
+
+
+span.topMsgLeft
+{
+    background:#FFFFFF url(../../Content/images/topMsgLeft.png) no-repeat top left;
+    height:31px;
+    width:10px;
+    float:left;
+}
+span.topMsgMiddle
+{
+    height:31px;  
+    float:left;
+    padding:10px 0px 0px 0px;
+    color:#FFFFFF;
+    font-weight:bold;
+}
+/*Situações na qual foi utilizado label*/
+span.topMsgMiddle span{color:#FFFFFF;font-weight:bold;}
+
+span.topMsgRight
+{
+    background:#FFFFFF url(../../Content/images/topMsgRight.png) no-repeat top right;
+    height:31px;
+    float:right;
+    width:10px;
+}
+
+div.conteudoMsg
+{
+    clear:both;
+    width:99.6%;     
+    overflow:hidden;
+    border-left:1px solid #CBD8E4;
+    border-right:1px solid #CBD8E4;
+    background:#FFFFFF;
+}
+
+div.conteudoModal
+{
+    clear:both;
+    width:99.5%;     
+    overflow:auto;
+    border-left:1px solid #CBD8E4;
+    border-right:1px solid #CBD8E4;
+    background:#FFFFFF;    
+    height:120px;
+}
+
+div.conteudoModalAbout 
+{
+    padding:15px;
+    width:94.1%;     
+    clear:both;
+    overflow:hidden;
+    border-left:1px solid #CBD8E4;
+    border-right:1px solid #CBD8E4;
+    background:#FFFFFF;    
+}
+
+div.conteudoMsg p
+{
+    margin:20px 10px 20px 10px;
+}
+
+div.conteudoMsgModal
+{
+    clear:both;
+    display:table;
+    width:100%; 
+    height:100%;
+    border-left:1px solid #CBD8E4;
+    border-right:1px solid #CBD8E4;
+    background:#FFFFFF;
+    padding:10px;
+}
+
+/*Imagem da Modal*/
+img.imgDialog
+{
+    float:left;
+    margin:5px 20px 10px 10px;
+}
+
+
+div.rodapeMsg
+{
+    width:100%;    
+    overflow:hidden;
+    background-color:#D3E0EC;
+    text-align:right;
+}
+
+div.btn
+{
+    margin:5px 10px 10px 10px;
+    overflow:hidden;
+}
+
+
+
+/*--------------------------     MENU    ---------------------------------*/
+div.conteudoMenu
+{
+    width:176px;    
+    /*height:470px;*/
+    border:1px solid #DCE5EC;
+    background-color:#FFFFFF;
+    overflow:hidden;
+}
+
+.conteudoMenu a:link, .conteudoMenu a:visited
+{
+    display:block;
+    text-decoration:none;
+    padding:6px;
+}
+
+.conteudoMenu a:hover, .conteudoMenu a:active
+{
+    background-color:#84CEFF;
+}
+
+/*FIM MENU*/
+/*----------------------------------------------------------------------*/
+
+
+/*--------------------------    RODAPE    ----------------------------- */
+
+div.rodapeBox
+{
+    background:transparent url(../../Content/images/bottom_smallbox.png) no-repeat top left;
+    width:196px;    
+    height:12px;
+	margin-bottom:10px;
+}
+
+div.topoBox
+{
+    width:196px;    
+    background:#FFF url(../../Content/images/topoDescMiddle.png) repeat-x top left;
+    height:31px;
+}
+
+div.rodapeOpcoes
+{
+    float:right;
+}
+
+span.logoRodape
+{
+	float:left;
+	background:transparent url(../../Content/images/rodape_totvs.png) no-repeat top left;
+	height:53px;
+	width:136px;
+}
+
+span.rodapeDivisor, span.rodapeDivisorTexto
+{
+    float:left;
+	background:transparent url(../../Content/images/rodape_divisor.jpg) no-repeat bottom left;
+	height:33px;
+	padding:20px 10px 0px 10px;
+	color:#FFFFFF;
+	font-size:12px;
+}
+
+span.rodapeDivisor span
+{
+    color:#FFFFFF;
+    font-size:12px;
+    line-height:20px;
+    padding:0px 5px 0px 5px;
+}
+
+
+div.rodape
+{
+	background:transparent url(../../Content/images/bck_rodape.png) repeat-x top left;
+	position:absolute;
+	height:53px;
+	bottom:0px;
+	width:100%;
+	min-width: 995px;
+}
+
+
+/*  ESTILOS de componente HTML */
+
+h1
+{
+    font-weight:normal;
+    font-size:26px;
+}
+
+h2, span.title
+{
+    clear:both;
+    display:block;
+    font-weight:bold;
+    font-size:12px;
+    text-decoration:underline;
+    margin:0px 0px 5px 0px;
+    padding:0px 0px 5px 0px;
+    border-bottom:1px solid #C6CAC9;
+    background:transparent url(../../Content/images/arrow_up.gif) no-repeat top right;
+}
+
+/*Dropdown de modulo no login e pmweb.aspx*/
+
+.ModuleText{text-transform:uppercase}
+
+/***********************************************************************************/
+
+
+/************************************************
+	Tela principal
+************************************************/
+/* Background da tela principal 
+.mn-bac{
+    margin:0;
+    background-image: url(gens_Content/images/bac-mn.gif);
+    background-repeat: no-repeat;
+}
+
+/* Botões da tela principal 
+.mn-scr-btn{
+background-image: url(gens_Content/images/btn-mn.gif);
+background-repeat: no-repeat;
+width: 166;
+height: 20;
+position: relative;
+left: 521;
+font-family: tahoma;
+font-size: 14;
+color: #ffffff;
+padding-left: 10;
+padding-top: 1;
+text-decoration:none;
+MARGIN-TOP: 2px;
+MARGIN-BOTTOM: 1px;
+}
+
+/* Barra de baixo da tela principal 
+.mn-scr-bar{
+background-color: #f58222;
+background-image:url(gens_Content/images/btn-mid.gif);
+background-repeat:no-repeat;
+background-position-x:right;
+position: absolute;
+top: 480;
+width: expression(document.body.clientWidth > 800? "793px" : document.body.clientWidth );
+height: 10;
+}
+
+/************************************************
+	Barra principal
+***********************************************
+.pmw-bac{
+margin: 0;
+}
+/* Área de login 
+.pmw-log{
+position:absolute;
+top:150;
+left:50;
+}
+
+/* Barra principal, nome do produto 
+.pmw-top-prod{
+position:absolute;
+left: 167;
+top: 23;
+width: 187;
+height: 59;
+background-image: url(gens_Content/images/top-prod.gif);
+background-repeat:no-repeat;
+}*/
+
+/************************************************
+	Botão sair
+************************************************/
+/* Botão de sair 
+.pmw-top-ext{
+position:absolute;
+top:10;
+right:10;
+height:19;
+font-size:11;
+font-weight:bold;
+font-family:tahoma;
+color:#ffffff;
+padding-right:20;
+background-image:url(gens_Content/images/btn-x.gif);
+background-repeat:no-repeat;
+background-position-x:right;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#5a8c8c,direction=135,strength=4);
+text-decoration:none;
+}*/
+
+/************************************************
+	Barra de botões
+************************************************/
+/* Barra de botões, logo abaixo da barra principal */
+.pmw-mid-bar{
+
+}
+
+/* Item da barra. Lateral mais à esquerda */
+.pmw-btn-lfm{
+
+}
+
+
+/* Item da barra. Entre botões */
+.pmw-btn-lf{
+
+}
+
+/* Item da barra. Lateral mais à direita */
+.pmw-btn-rgm{
+
+
+}
+
+/************************************************
+	Barra inferior
+************************************************/
+/* Parte esquerda da parte de cima da barra 
+	inferior para tela de login 
+.pmw-bot-lf{
+position:absolute;
+width:100%;
+height:9;
+bottom:21;
+background-image:url(gens_Content/images/bot-lf.gif);
+font-size:0;
+}
+/* Parte direita da parte de cima da barra
+	inferior para tela de login
+	Essa parte contém texto 
+.pmw-bot-rg{
+position:absolute;
+width:214;
+height:49;
+bottom:21;
+right:0;
+background-image:url(gens_Content/images/bot-rg.gif);
+font-size:0;
+}
+
+/* Textos para a parte direita da parte de 
+   cima da barra inferior 
+.pmw-bot-tx1,.pmw-bot-tx2{
+position:absolute;
+font-family:verdana;
+font-size:12;
+font-weight:bold;
+}
+
+.pmw-bot-tx1{
+top:10;
+left:34;
+color:#ffffff;
+}
+
+.pmw-bot-tx2{
+top:26;
+left:66;
+color:#ecc31b;
+}
+
+/* Parte de baixo da barra inferior
+   Contém texto 
+.pmw-scr-bar{
+background-color:#f58222;
+background-image:url(gens_Content/images/btn-mid.gif);
+background-repeat:repeat-y;
+background-position-x:right;
+position:absolute;
+bottom:0;
+width:100%;
+height:21;
+padding-top:2;
+padding-bottom:2;
+font-size:12;
+font-family:tahoma;
+text-align:center;
+}
+
+.pmw-hsp{*/
+/*background-image:url(/pmweb/Content/images/hnsm_logo.gif);
+width:170;
+height:51;*/
+/*background-image:url(gens_Content/images/hnsm_logo_2.gif);
+width:170;
+height:57;
+position:absolute;
+right:64;
+top:24;
+}
+
+.pmw-user-ico{
+background-image:url(gens_Content/images/user.gif);
+width:14;
+height:14;
+position:absolute;
+}
+
+.pmw-module-ico{
+background-image:url(gens_Content/images/module.gif);
+width:14;
+height:14;
+position:absolute;
+}
+
+.pmw-unit-ico{
+background-image:url(gens_Content/images/unit.gif);
+width:14;
+height:14;
+position:absolute;
+}
+
+.frameAnamnese 
+{
+	width: 760px;
+}*/

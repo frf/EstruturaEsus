@@ -1,0 +1,57 @@
+﻿/* accordion */
+.accordion
+{
+	margin: 1em;
+	background-color: transparent;
+}
+
+.accordion dt
+{
+	color: #FFFFFF;
+	border: 1px solid transparent;
+	font-weight: bold;
+	background: transparent url(gens_images/topMsgMiddle.png) repeat-x  top left;
+	text-align: left;
+	cursor: hand;
+	font-style: normal;
+	padding:1px 10px;
+	font-size:99%;
+	height: 20px;
+}
+
+.accordion dt.selected
+{
+	background: transparent url(gens_images/topMsgMiddle.png) repeat-x  top left;
+	color: #FFFFFF;
+}
+
+.accordion dt.hover
+{
+	text-align: left;
+	text-decoration: underline;
+	cursor: hand;
+}
+
+.accordion dd
+{
+	margin: 1px;
+	display: none;
+	border: 1px solid #99CCFF;
+	padding: 4px;
+	overflow: hidden;
+}
+
+.accordion dd.open
+{
+	display: block;
+}
+
+.accordion dd.getHeight
+{
+	display: block;
+}
+
+.accordion dt span, .accordion dt span a:link, .accordion dt span a:visited, .accordion dt a
+{
+	color: #FFFFFF;
+}

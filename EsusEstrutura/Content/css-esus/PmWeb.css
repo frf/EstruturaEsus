@@ -1,0 +1,1204 @@
+﻿/*=================================================================*/
+/*|                 PMWEB CSS                                     |*/
+/*|                                                               |*/
+/*| - Estilos dos componentes do sistema                          |*/
+/*|                                                               |*/
+/*|                                                               |*/
+/*=================================================================*/
+
+*,body, table, input, select, textarea
+{
+	font-family: verdana;
+	font-size: 10px;
+}
+
+input, select, textarea
+{
+	font-family: verdana;
+	font-size: 10px;
+	color:#095070;
+}
+
+/*-----------------------------------------------------------------*/
+/*						GENSLABEL								   */
+/*-----------------------------------------------------------------*/
+.lbl {
+	/*margin:20px 0px 2px 0px;
+	clear:left;*/
+	font-size: 10px;
+}
+
+label .lbl {
+	/*display:block;*/
+}
+
+
+.fld, .fld-err,
+.chk,
+.rbn, .rbn-lnk,
+.lnk,
+.rbn-unc, .rbn-unc-dis, .rbn-chk, .rbn-chk-dis
+{
+	height: 18px;
+}
+
+.fld, .fld-err, select, textarea {
+	border-top:1px solid #5B7A99;
+	border-left:1px solid  #A4D1FF;
+	border-right:1px solid  #A4D1FF;
+	border-bottom:1px solid  #A4D1FF;
+	background-color: #FFFFFF;
+}
+
+.fld-err {
+	border-color: #FF0000;
+}
+
+.btn {
+	background-repeat: repeat-x;
+}
+.btn-cpn {
+	font-size: 11px;
+	padding-left: 4px;
+	padding-right: 4px;
+	white-space: nowrap;
+	text-align: center;
+	width: 100%;
+}
+.cur-def {
+   cursor: default;
+}
+
+/*-----------------------------------------------------------*/
+/*						GENSRADIOBUTTON						 */
+/*-----------------------------------------------------------*/
+.rbn-lef
+{
+	background-position: center left;
+	padding-right: 4;
+	padding-left: 16;
+}
+.rbn-rig
+{
+	background-position: center right;
+	padding-right: 16;
+	padding-left: 4;
+}
+
+.rbn-unc, .rbn-unc-dis, .rbn-chk, .rbn-chk-dis
+{
+	background-repeat: no-repeat;
+	padding-top: 2;
+	text-decoration: none;
+}
+.rbn-unc
+{background-image: url(gens_images/rb_unchecked.png);}
+.rbn-unc:hover
+{background-image: url(gens_images/rb_unchecked_over.png);}
+.rbn-unc:active
+{background-image: url(gens_images/rb_unchecked_down.png);}
+.rbn-unc-dis
+{background-image: url(gens_images/rb_unchecked_disabled.png);}
+.rbn-chk
+{background-image: url(gens_images/rb_checked.png);}
+.rbn-chk:hover
+{background-image: url(gens_images/rb_checked_over.png);}
+.rbn-chk:active
+{background-image: url(gens_images/rb_checked_down.png);}
+.rbn-chk-dis
+{background-image: url(gens_images/rb_checked_disabled.png);}
+
+
+/*--------------------------------------------------------------*/
+/*						GENSLABEL							    */
+/*--------------------------------------------------------------*/
+.chk,
+.rbn-lnk {
+	text-decoration: none;
+	cursor: default;
+	padding-top: 2px;
+}
+
+.chk,
+.chk:hover,
+.chk:active,
+.chk:link,
+.chk:visited{
+	
+}
+
+
+.rbn
+{
+	white-space: nowrap;
+}
+
+.rbn-lnk
+{
+	padding-left: 4px;
+}
+
+
+/*-----------------------------------------------------------------------*/
+/*                  GENSTABCONTROL                                       */
+/*-----------------------------------------------------------------------*/
+
+.tab-conteudo-left
+{
+    padding:10px;
+    background: #C5D7E8 url(gens_images/tab_background.jpg) repeat-x top left;
+    border-left:1px solid #A4B6C2;
+    border-bottom:1px solid #A4B6C2;
+    
+}
+
+.tab-conteudo-right
+{
+    padding:5px;
+    background: #C5D7E8 url(gens_images/tab_background.jpg) repeat-x top left;
+    border-right:1px solid #A4B6C2;
+    border-bottom:1px solid #A4B6C2;
+    
+}
+
+.tab-conteudo-left input
+{
+    height:25px;
+    background:#FFF url(gens_images/bck_input_search.jpg) no-repeat top left;
+    padding:4px 5px 0px 20px ;
+    font-size:12px;
+    font-weight:bold;
+    max-width:400px;
+}
+
+a.tab-active,
+a.tab-active:hover,
+a.tab-active:active,
+a.tab-active:link,
+a.tab-active:visited,
+a.tab-inactive,
+a.tab-inactive:hover,
+a.tab-inactive:active,
+a.tab-inactive:link,
+a.tab-inactive:visited
+{
+	font-size: 11px;
+	font-family:Verdana;
+	text-decoration: none;
+}
+
+a.tab-active,
+a.tab-active:hover,
+a.tab-active:active,
+a.tab-active:link,
+a.tab-active:visited
+{
+	color:#005284;
+	padding:3px;
+}
+
+a.tab-inactive,
+a.tab-inactive:hover,
+a.tab-inactive:active,
+a.tab-inactive:link,
+a.tab-inactive:visited
+{
+	color:#FFFFFF;
+	padding:3px;
+}
+
+.tab-search-cpn {
+	font-size: 11px;
+	color: #8b9095;
+}
+.tab-loading {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/*-----------------------------------------------------------------------*/
+/*						GENSGRIDVIEW								     */
+/*						GENSDATAGRID								     */
+/*-----------------------------------------------------------------------*/
+.tbl, .tbl-bac
+{
+	background-color: #FFFFFF;
+	border-collapse: collapse;
+	text-indent: 3;
+	border:1px solid #9DCAFF;
+}
+
+.tbl-tr-white
+{
+	background-color: #FFFFFF;
+}
+
+.tbl-tr, .tbl-tr-an
+{
+	background-color: #F4F4F4;
+	border:1px solid #CACACA;
+}
+
+.tbl-tr-an
+{
+	cursor: hand;
+}	
+
+
+.tbl-hdr , .tbl-hdr th .tbl-hdr , .tbl-hdr td
+{
+	background:#DBE7F3 url(gens_images/bkg_header_grid.jpg) repeat-x bottom left !important;
+	text-align:left;
+	height:17px;
+	border:1px solid #9DCBFF;
+	/*padding:2px;*/
+}
+
+.tbl-hdr-white
+{
+	font-weight: bold;
+	background: #DBE7F3 url(gens_images/bkg_header_grid.jpg) repeat-x bottom left;
+	text-decoration: underline;
+}
+
+.tbl-ftr
+{
+	background-color: #efefef;
+}
+.tbl-hlt, .tbl-sel
+{
+	background-color: #B2E1FF;
+	cursor: hand;
+}
+
+.grid-variacao{ background-color: #F4F4F4; }
+.grid-variacaoPar{ background-color: #FFFFFF;}
+
+.tbl-dis, .tbl-sel
+{
+	color: #333333;
+	background-color: #B2E1FF;
+}
+/*  PARTICULAR  */
+.tbl-pvt
+{
+	cursor: hand;
+	color: blue;
+}
+.tbl-hlt-pvt
+{
+	cursor: hand;
+	color: blue;
+	background-color: #c6c7ce;	
+}
+/* ITEM PAGO */
+.tbl-pay
+{
+	cursor: default;
+	color: gray;
+	background-color: #dedfe7;
+}
+/* ITEM ISENTO*/
+.tbl-ist
+{
+	cursor: default;
+	color: red;
+  font-weight: bold;
+  background-color: White;
+}
+
+.tbl-hlt-ist
+{
+	cursor: hand;
+	color: red;
+    font-weight: bold;
+	background-color: #c6c7ce;	
+}
+
+
+
+
+/*********************************************************/
+/* GENS LINK
+/*********************************************************/
+.lnk
+{
+  padding-top: 5px;
+  font-weight: bold !important;
+  text-decoration: underline;
+  cursor: hand;
+}
+.lnk_schedule
+{
+  padding-top: 2px;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: hand;
+}
+
+
+/*a.lnk:link, a.lnk:visited
+{
+	color: #004875;
+}
+
+a.lnk:hover, a.lnk:active
+{
+	color: #004875;
+}
+*/
+
+/*-------------------------------------------------------------------*/
+/*						GENSMENU								     */
+/*-------------------------------------------------------------------*/
+.mnu-top{}
+
+/*LADO ESQUERDO*/
+.mnu-top-lf
+{
+	background:#FFFFFF url(gens_images/topoLeft.png) no-repeat top left;
+    height:31px;
+    width:12px;
+}
+/*CENTRO*/
+.mnu-top-center
+{
+	background:transparent url(gens_images/topoMiddle.png) repeat-x top center;
+    height:31px;
+	width:98%
+}
+/*LADO DIREITO*/
+.mnu-top-rg
+{
+	background:#FFFFFF url(gens_images/topoRight.png) no-repeat top right;
+    height:31px;
+    width:12px;
+}
+/*CONTEUDO CENTRAL*/
+.mnu-bac
+{
+	vertical-align:top;
+	border-left:1px solid #DCE5EC;
+    border-right:1px solid #DCE5EC;
+    background-color:#FFFFFF;
+	padding:10px;
+}
+.mnu-itm
+{
+	padding:2px 5px 2px 5px;
+	float:left;
+	clear:both;
+	white-space:nowrap;
+	color:#05466C;
+	margin:2px;
+	text-decoration:none;
+}
+.mnu-itm:hover
+{
+	padding:2px 5px 2px 5px;
+	text-decoration:underline;
+}
+
+/*RODAPE*/
+
+/*LADO ESQUERDO*/
+.mnu-bottom-lf
+{
+	background:transparent url(gens_images/bottomLeft.png) no-repeat top left;
+    height:18px;
+    width:12px;
+}
+/*CENTRO*/
+.mnu-bottom-center
+{
+	background:transparent url(gens_images/bottomMiddle.png) repeat-x top center;
+    height:18px;
+	/*width:90%*/
+}
+/*LADO DIREITO*/
+.mnu-bottom-rg
+{
+	background:transparent url(gens_images/bottomRight.png) no-repeat top right;
+    height:18px;
+    width:12px;
+}
+    
+
+/************************************************
+.mnu {
+	padding-bottom: 4px;
+}
+.mnu-lft {
+	background-image: url(gens_images/mnu_top_left_corner.gif);
+	background-repeat: no-repeat;
+	background-color: #003063;
+}
+.mnu-rgt {
+	background-image: url(gens_images/mnu_top_right_corner.gif);
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: top;
+	background-color: White;
+}
+.mnu-ttl {
+	background-color: #6699cc;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+	padding-left: 4px;
+	height: 25px;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#003063,endColorStr=#ffffff);
+}
+.mnu-btn {
+	cursor: hand;
+}
+.mnu-its {
+	background-color: #F7F3F7;
+	border-style: solid;
+	border-color: #6699cc;
+	border-width: 1px;
+}
+
+.mnu-itm,
+.mnu-itm:hover
+{
+	font-size: 11px;
+	border-style: solid;
+	border-width: 1px;
+	display: block;	
+	text-decoration: none;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	height: 9px;
+	width: 100%;
+}
+
+.mnu-itm
+{
+	border-color: #F7F3F7;
+	padding-left: 4px;
+	color: Black;
+}
+.mnu-itm:hover
+{
+	border-color: Gray;
+	background-color: #E7E3E7;
+}
+************************************************/
+
+/************************************************
+	GensPath
+************************************************/
+.pth {
+    width:99.5%;
+    white-space:normal;
+}
+.pth-itm{
+	font-weight:bold;
+	text-decoration: none;
+	padding:8px 10px 10px 0px;
+	margin-right:2px;
+}
+
+.pth-itm-arw{
+    text-decoration: none;
+	padding:8px 10px 10px 0px;
+    margin-right:2px;
+}
+
+.pth-itm-arw:hover {
+	text-decoration:underline;
+}
+
+/************************************************
+ Gens Panel
+************************************************/
+.pnl-top
+{
+}
+.pnl-top-lf
+{
+	background:#FFFFFF url(gens_images/topoDescLeft.png) no-repeat top left;
+    height:31px;
+    width:12px;
+    float:left;
+}
+
+.pnl-top-middle
+{
+	width:98%;    
+    background:#FFF url(gens_images/topoDescMiddle.png) repeat-x top left;
+    height:31px;
+}
+
+.pnl-top-rg{
+	background:#FFFFFF url(gens_images/topoDescRight.png) no-repeat top right;
+    height:31px;
+    float:right;
+    width:12px;
+}
+/* Background Verde */
+.pnl-bac-green{
+	vertical-align:top;
+	background-color:#FFFFFF;
+	border-left:1px solid #DCE5EC;
+    border-right:1px solid #DCE5EC;
+	border-bottom:1px solid #DCE5EC;
+	padding:6px;
+}
+/* Background Verde Claro */
+.pnl-bac-lightgreen{
+	vertical-align:top;
+	background-color:#EAF2F0;
+	padding:6px;
+}
+/* Background Rosa */
+.pnl-bac-lightpink{
+	vertical-align:top;
+	background-color:#fdefe3;
+	padding:6px;
+}
+/************************************************
+.pnl-top 
+{
+	background-image: url(gens_images/panel_border_top.gif);
+	background-repeat: repeat-x;
+}
+.pnl-lef
+{
+	background-image: url(gens_images/panel_border_left.gif);
+	background-repeat: repeat-y;
+}
+.pnl-rig
+{
+	background-image: url(gens_images/panel_border_right.gif);
+	background-repeat: repeat-y;
+}
+.pnl-bot 
+{
+	background-image: url(gens_images/panel_border_bottom.gif);
+	background-repeat: repeat-x;
+}
+.pnl-bac
+{
+	background-color: #d4dee9;
+}
+.pnl-tit
+{
+	padding-right: 4px;
+	padding-left: 4px;
+	font-weight: bold;
+	font-size: 14px;
+	color: royalblue;
+	WHITE-SPACE: nowrap;
+}
+.pnl-sep
+{
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #7b7b7b;
+	padding-bottom: 0px;
+}
+************************************************/
+
+.scrlbx {
+	overflow: auto;
+	background-color: #ffffff;
+	height:100%;
+}
+
+.scrlbx-transp 
+{
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+	border-style:none;
+	background-color:transparent;
+}
+
+.box {
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	color:#FFFFFF;
+}
+
+.box span.lbl {
+	color:#FFFFFF;
+	font-weight:bold;
+	padding:3px 3px 3px 5px ;
+	height:15px;
+}
+
+.box-transp {
+	overflow: auto;
+	width: 100%;
+	height: 98%;
+	background-color: #FFFFFF;
+}
+
+/* linhas pares e ímpares do grid */
+.row-odd {
+	background-color: #FFFFFF; /* cinza claro */
+}
+
+.row-even {
+	background-color: #F4F4F4; /* azul claro igual ao do panel */
+}
+
+/* linha com cursor de mão */
+.row-hnd {
+	cursor: hand;
+}
+
+/* linha com highlight */
+.row-hlt {
+	background-color: #FDFDDF; /* amarelo */
+}
+
+/* linha é header */
+.row-hdr {
+	/*background-color: #597899;*/
+	background:#FFF url(gens_images/bkg_header_grid.jpg) repeat-x top left;
+	font-weight: bold;
+	/*color: #ffffff;*/
+	color:#095070;
+	height:22px;
+}
+
+/* table */
+.grd-bdy {
+	border-collapse: collapse;
+	width: 100%;
+	vertical-align:top;
+}
+
+/* margens para as colunas do grid */
+.clm-mrg-hdr {
+	padding-left: 6px;
+}
+
+.clm-mrg {
+	padding-left: 12px;
+}
+
+.titlerow 
+{
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.grpbx
+{
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.tr-fld 
+{
+	font-size: 14px;
+}
+.tr-fld-cts
+{
+	display: none;
+	left: 15px;
+	position: relative;
+}
+.tr-doc
+{
+	font-size: 14px; 
+}
+.tr-lnk
+{
+	font-size: 14px;
+	color: black;
+	position: relative;
+	top: -3px;
+	text-decoration: none
+}
+.invisible
+{
+	display: none;
+}
+.truncate
+{
+	overflow:hidden;
+}
+
+/* (inicio) Estilos da Prescricao Medica. NAO ALTERE! */
+/* Os estilos da prescricao medica possuem o prefixo "MPR-" */
+/* body de todas as telas da prescrição médica tem fundo transparente */
+
+.mpr-frm {
+	background-color: transparent;
+}
+
+/* grid da prescrição */
+
+.mpr-tbl {
+	font-size: 11px;
+	background-color: #dedfe7;
+	border-color: #314973;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+/* cabeçalho do grid da prescrição */
+
+.mpr-hdr {
+	background-color: #597899;
+	font-weight: bold;
+	color: #FFFFFF;
+/* text-align: center; */
+}
+
+/* linha com highlight no grid da prescrição */
+
+.mpr-hlt {
+	cursor: hand;
+	background-color: #FDFDDF; /* amarelo */
+/* #718CA8; azul mais escuro */
+/* #e7e3e7; cinza escuro */
+/* #D4DEE9; azul do panel */
+}
+
+/* cabeçalho principal (primeiro cabeçalho) no grid da prescrição */
+/* fora de uso */
+
+.mpr-main-hdr {
+	padding-left: 6px;
+	background-color: #597899; 
+/* #f7f3f7; */
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* margens esquerdas para os cabeçalhos e linhas comuns dentro do grid da prescrição */
+/* linhas comuns tem margem maior */
+
+.mpr-mrg-hdr {
+	padding-left: 6px;
+}
+
+.mpr-mrg {
+	padding-left: 12px;
+}
+
+/* linhas pares e ímpares no grid da prescrição */
+
+.mpr-odd {
+	cursor: hand;
+	background-color: #f7f3f7; /* cinza claro */
+/* #ffffff; branco */
+}
+
+.mpr-even {
+	cursor: hand;
+	background-color: #D4DEE9; /* azul do panel */
+/* #e7e3e7; cinza escuro */
+/* #FDFDDF; amarelo */
+}
+
+/* ícones de status de itens de aprazamento */
+/* são utilizados em span's */
+
+.mpr-sch-ok,
+.mpr-sch-err,
+.mpr-sch-pnd,
+.mpr-sch-spn,
+.mpr-sch-late {
+	width: 15px;
+	height: 10px;
+	padding:4px 2px 2px 2px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mpr-sch-late {
+	background-image: url(gens_images/schedule_pendent_red.gif);
+}
+
+.mpr-sch-ok {
+	background-image: url(gens_images/schedule_ok_blue.gif);
+}
+
+.mpr-sch-err {
+	background-image: url(gens_images/schedule_error.gif);
+}
+
+.mpr-sch-pnd {
+	background-image: url(gens_images/schedule_pendent_green.gif);
+}
+
+/* ícone para expansão de menu */
+.content-exp
+{
+	width: 9px;
+	height: 9px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(gens_images/plus.gif);	
+	position:relative;
+}
+
+.content-cps
+{
+	width: 9px;
+	height: 9px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(gens_images/minus.gif);	
+	position:relative;
+}
+
+.mnu-exe-exp
+{
+	width: 21px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(gens_images/fst_expand.gif);	
+	position:absolute;
+	left: 360px;
+}
+
+.mnu-exe-cps
+{
+	width: 21px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(gens_images/fst_collapse.gif);	
+	position:absolute;
+	left: 360px;
+}
+
+/* link menor */
+.mpr-link {
+/*
+	position:relative;
+	right:85;
+*/
+	font-size: 11px;	
+	text-decoration: underline;
+	color: #808080;
+}
+
+/* cores diferentes para status das prescrições */
+/* 1. pendente */
+/* 3. liberado */
+
+.mpr-st1 {
+	color: #800000;
+}
+
+.mpr-st3 {
+	color: #008000;
+}
+
+/* status de item prescrito */
+/* modificado ou suspenso */
+
+.mpr-sta {
+	position:absolute;
+	right: 8px;
+	color: #800000;
+	font-weight: bold;
+}
+
+a.mpr-sta-link
+{
+	font-size: 8pt;
+	right: 8px;
+	color: blue;	
+}
+
+mpr-itm-nowrap
+{
+	position: relative;
+	white-space: nowrap;
+}
+	
+.mpr-itm {
+	position: relative;
+	width: 100%;
+	/* white-space: nowrap; */
+}
+
+.mpr-itm-dsc 
+{
+	/*width: expression(this.parentElement.offsetWidth - 75);*/
+	/* width: 100%; */
+}
+
+/* styles para alinhamento e espaçamento dos elementos da interface */
+
+.mpr-align { PADDING-RIGHT: 8px; PADDING-LEFT: 8px; WIDTH: 100%; PADDING-TOP: 16px; }
+.mpr-align-h { PADDING-RIGHT: 8px; PADDING-LEFT: 8px; WIDTH: 100%;  }
+.mpr-spc-rg { PADDING-RIGHT: 8px; }
+.mpr-spc-lf { PADDING-LEFT: 8px; }
+.mpr-spc-h { PADDING-RIGHT: 8px; PADDING-LEFT: 8px; }
+.mpr-spc-tp { padding-top: 8px; }
+.mpr-spc-bt { padding-bottom: 8px; }
+.mpr-spc-v { PADDING-top: 4px; PADDING-bottom: 4px; }
+
+.mpr-btn-tp { padding-top: 5px; }
+.mpr-btn-bt { padding-bottom: 5px; }
+.mpr-btn-rg { padding-right: 5px; }
+
+/* label um pouco menor que o normal */
+
+.lbl-sml {
+	font-size: 10px;
+}
+
+/* horizontal rule */
+
+.mpr-hr {
+/*	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #7b7b7b;*/
+	padding-bottom: 1px;
+	width: 100%;
+}
+
+/* (fim) Estilos da Prescrição Médica. NAO ALTERE! 
+A
+{
+	font-size:12px;
+	color: Blue;
+}*/
+
+.fit-parent
+{
+	/*height: expression(this.parentElement.offsetHeight);*/
+}
+
+.alt-bck
+{
+	border:2px solid #99CCFF;
+	padding: 0px;
+	margin:0px;
+	background-color: #ffffff;
+}
+
+.alt-ttl
+{
+	padding: 0px 0px 0px 5px;
+	margin:0px;
+	background:transparent url(gens_images/topMsgMiddle.png) repeat-x top center;
+	height:20px;
+	font-weight: bold;
+	font-size: 11px; 
+	color: #ffffff; 
+	/*filter: progid:DXImageTransform.Microsoft.Gradient(gradientType=1,startColorStr=#003063,endColorStr=#ffffff);*/
+}
+
+.alt-txt
+{
+	padding: 6px;
+}
+
+.alt-ttx
+{
+    font-weight: bold;
+	font-size: 11px; 
+	color: #ffffff;     
+	padding: 6px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*						GENSBUTTON								     */
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/* btn = botao que possui maior importancia na tela | fundo azul 	    					     */
+/* btn_sl = botao que possui menor importancia na tela | fundo branco     					     */
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.btn_tbl
+{
+	margin:2px;
+	min-width:60px;
+	display:inline;
+}
+.btn_lk{cursor:default; text-decoration:none;}
+
+.btn_en_l, .btn_en_r,
+.btn_ov_l, .btn_ov_r,
+.btn_df_l, .btn_df_r,
+.btn_dw_l, .btn_dw_r,
+.btn_ds_l, .btn_ds_r
+.btn_sl_en_l, .btn_sl_en_r,
+.btn_sl_ov_l, .btn_sl_ov_r,
+.btn_sl_df_l, .btn_sl_df_r,
+.btn_sl_dw_l, .btn_sl_dw_r,
+.btn_sl_ds_l, .btn_sl_ds_r
+{
+  width:7px;
+  height:23px;
+  background-repeat:no-repeat;
+  margin:0px;
+}
+
+.btn_en, .btn_ov, .btn_df, .btn_dw, .btn_ds
+{
+  height:23px;
+  text-align:center;
+  padding: 0 4px 0 4px;
+  color:#FFFFFF;
+  font-weight:bold;
+  white-space:nowrap;
+  min-width:40px;
+}
+
+.btn_sl_en, .btn_sl_ov, .btn_sl_df, .btn_sl_dw, .btn_sl_ds
+{
+  height:23px;
+  text-align:center;
+  padding: 0 4px 0 4px;
+  color:#0A3D72;
+  font-weight:normal;
+  min-width:40px;
+  white-space:nowrap;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+/*				 	IMAGENS DOS BUTTONS							 		       */
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+/* >>> BOTAO AZUL */
+.btn_en{background: transparent url(gens_images/btn_enabled_middle.jpg) repeat-x top left}
+.btn_en_l{background: transparent url(gens_images/btn_enabled_left.jpg) no-repeat top left}
+.btn_en_r{background: transparent url(gens_images/btn_enabled_right.jpg) no-repeat top right}
+
+.btn_ov{background: transparent url(gens_images/btn_over_middle.jpg) repeat-x top left}
+.btn_ov_l{background: transparent url(gens_images/btn_over_left.jpg) no-repeat top left}
+.btn_ov_r{background: transparent url(gens_images/btn_over_right.jpg) no-repeat top right}
+
+.btn_df{background: transparent url(gens_images/btn_default_middle.jpg) repeat-x top left}
+.btn_df_l{background: transparent url(gens_images/btn_default_left.jpg) no-repeat top left}
+.btn_df_r{background: transparent url(gens_images/btn_default_right.jpg) no-repeat top right}
+
+.btn_dw{background: transparent url(gens_images/btn_down_middle.jpg) repeat-x top left}
+.btn_dw_l{background: transparent url(gens_images/btn_down_left.jpg) no-repeat top left}
+.btn_dw_r{background: transparent url(gens_images/btn_down_right.jpg) no-repeat top right}
+
+.btn_ds{background: transparent url(gens_images/btn_disabled_middle.jpg) repeat-x top left}
+.btn_ds_l{background: transparent url(gens_images/btn_disabled_left.jpg) no-repeat top left}
+.btn_ds_r{background: transparent url(gens_images/btn_disabled_right.jpg) no-repeat top right}
+
+/* >>> BOTAO BRANCO 	*/
+.btn_sl_en{background: transparent url(gens_images/btn_sl_enabled_middle.jpg) repeat-x top left}
+.btn_sl_en_l{background: transparent url(gens_images/btn_sl_enabled_left.jpg) no-repeat top left}
+.btn_sl_en_r{background: transparent url(gens_images/btn_sl_enabled_right.jpg) no-repeat top right}
+
+.btn_sl_ov{background: transparent url(gens_images/btn_sl_over_middle.jpg) repeat-x top left}
+.btn_sl_ov_l{background: transparent url(gens_images/btn_sl_over_left.jpg) no-repeat top left}
+.btn_sl_ov_r{background: transparent url(gens_images/btn_sl_over_right.jpg) no-repeat top right}
+
+.btn_sl_df{background: transparent url(gens_images/btn_sl_default_middle.jpg) repeat-x top left}
+.btn_sl_df_l{background: transparent url(gens_images/btn_sl_default_left.jpg) no-repeat top left}
+.btn_sl_df_r{background: transparent url(gens_images/btn_sl_default_right.jpg) no-repeat top right}
+
+.btn_sl_dw{background: transparent url(gens_images/btn_sl_down_middle.jpg) repeat-x top left}
+.btn_sl_dw_l{background: transparent url(gens_images/btn_sl_down_left.jpg) no-repeat top left}
+.btn_sl_dw_r{background: transparent url(gens_images/btn_sl_down_right.jpg) no-repeat top right}
+
+.btn_sl_ds{background: transparent url(gens_images/btn_sl_disabled_middle.jpg) repeat-x top left}
+.btn_sl_ds_l{background: transparent url(gens_images/btn_sl_disabled_left.jpg) no-repeat top left}
+.btn_sl_ds_r{background: transparent url(gens_images/btn_sl_disabled_right.jpg) no-repeat top right}
+
+
+/*-------------------------------------------------------------------------------------*/
+/*						 	GENSSEARCHCONTROL						      		       */
+/*-------------------------------------------------------------------------------------*/
+.search-BkG
+{
+    border-left:1px solid #D4DEE7;
+    border-right:1px solid #D4DEE7;
+    background-color:#EAF1F6;
+    padding:5px;
+    min-height:52px;
+}
+
+.search-bottom
+{
+    text-align:center;
+}
+
+/*input*/
+.txtSearch
+{
+    width:400px;    
+    text-transform:uppercase;
+}
+
+.txtSearchMedium
+{
+    width:200px;    
+    text-transform:uppercase;
+}
+
+.txtSearchSmall
+{
+    width:150px;    
+}
+
+/*-------------------------------------------------------------------------------------*/
+/*						 	GENSWAITMESSGE  						      		       */
+/*-------------------------------------------------------------------------------------*/
+
+.tblWaitMessage{
+    font-size:8pt; 
+    font-family:Arial; 
+    border-style:solid; 
+    border-width:1px; 
+    border-color: #CCCCCC; 
+}
+
+#dhtmltooltip
+{
+	position: absolute;
+	left: -300px;
+	width: 150px;
+	border: 1px solid black;
+	padding: 2px;
+	background-color: lightyellow;
+	visibility: hidden;
+	z-index: 100;
+	/*Remove below line to remove shadow. Below line should always appear last within this CSS*/
+	/*filter: progid:DXImageTransform.Microsoft.Shadow(color=gray,direction=135);*/
+}
+
+#dhtmlpointer
+{
+	position:absolute;
+	left: -300px;
+	z-index: 101;
+	visibility: hidden;
+}
+
+span.allergyInfo{color:#FF0000;font-weight:bold}
+
+
+span.MPRcomponent
+{
+    margin-left:20px;
+    display:block;
+}
+
+
+span.MPRcomponentMargin
+{
+    margin-left:20px;
+    float:left;
+}
+
+.clm-mrg strong
+{
+    display:block;
+    border-bottom:1px solid #cccccc;
+    margin:5px 0 5px 0;
+}

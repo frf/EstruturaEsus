@@ -1,0 +1,174 @@
+﻿/* body de todas as telas da prescrição médica tem fundo transparente */
+
+.mpr-frm {
+	background-color: transparent;
+}
+
+/* grid da prescrição */
+
+.mpr-tbl {
+	background-color: #dedfe7;
+	border-color: #314973;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+/* cabeçalho do grid da prescrição */
+
+.mpr-hdr {
+	background-color: #597899;
+	font-weight: bold;
+	color: #ffffff;
+/* text-align: center; */
+}
+
+/* linha com highlight no grid da prescrição */
+
+.mpr-hlt {
+	cursor: hand;
+	background-color: #FDFDDF; /* amarelo */
+/* #718CA8; azul mais escuro */
+/* #e7e3e7; cinza escuro */
+/* #D4DEE9; azul do panel */
+}
+
+/* cabeçalho principal (primeiro cabeçalho) no grid da prescrição */
+/* fora de uso */
+
+.mpr-main-hdr {
+	padding-left: 6px;
+	background-color: #597899; 
+/* #f7f3f7; */
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+/* margens esquerdas para os cabeçalhos e linhas comuns dentro do grid da prescrição */
+/* linhas comuns tem margem maior */
+
+.mpr-mrg-hdr {
+	padding-left: 6px;
+}
+
+.mpr-mrg {
+	padding-left: 12px;
+}
+
+/* linhas pares e ímpares no grid da prescrição */
+
+.mpr-odd {
+	cursor: hand;
+	background-color: #f7f3f7; /* cinza claro */
+/* #ffffff; branco */
+}
+
+.mpr-even {
+	cursor: hand;
+	background-color: #D4DEE9; /* azul do panel */
+/* #e7e3e7; cinza escuro */
+/* #FDFDDF; amarelo */;
+}
+
+/* ícones de status de itens de aprazamento */
+/* são utilizados em span's */
+
+.mpr-sch-ok,
+.mpr-sch-err,
+.mpr-sch-pnd,
+.mpr-sch-spn,
+.mpr-sch-late {
+	width: 8px;
+	height: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.mpr-sch-late {
+	background-image: url(/gens_images/schedule_pendent_red.gif);
+}
+
+.mpr-sch-ok {
+	background-image: url(/gens_images/schedule_ok_blue.gif);
+}
+
+.mpr-sch-err {
+	background-image: url(/gens_images/schedule_error.gif);
+}
+
+.mpr-sch-pnd {
+	background-image: url(/gens_images/schedule_pendent_green.gif);
+}
+
+/* status de item prescrito */
+/* modificado ou suspenso */
+
+.mpr-sta {
+	position:relative;
+	right:60;
+	color: #800000; /* vermelho escuro */
+/* #E70000; vermelho claro */
+/* #597899; azul */
+	font-weight: bold;
+}
+
+/* link menor */
+.mpr-link {
+
+/*
+	position:relative;
+	right:85;
+*/
+	font-size: 8pt;	
+	text-decoration: underline;
+	color: #808080;
+}
+
+/* cores diferentes para status das prescrições */
+/* 1. pendente */
+/* 3. liberado */
+
+.mpr-st1 {
+	color: #800000;
+}
+
+.mpr-st3 {
+	color: #008000;
+}
+
+.mpr-itm {
+	white-space: nowrap;
+}
+
+.mpr-itm-dsc {
+	width: 90%;
+}
+
+/* styles para alinhamento e espaçamento dos elementos da interface */
+
+.mpr-align { PADDING-RIGHT: 8px; PADDING-LEFT: 8px; WIDTH: 100%; PADDING-TOP: 16px; HEIGHT: 100%; }
+.mpr-spc-rg { PADDING-RIGHT: 8px; }
+.mpr-spc-lf { PADDING-LEFT: 8px; }
+.mpr-spc-h { PADDING-RIGHT: 8px; PADDING-LEFT: 8px; }
+.mpr-spc-tp { padding-top: 8px; }
+.mpr-spc-bt { padding-bottom: 8px; }
+.mpr-spc-v { PADDING-top: 4px; PADDING-bottom: 4px; }
+
+.mpr-btn-tp { padding-top: 4px; }
+.mpr-btn-bt { padding-bottom: 4px; }
+.mpr-btn-rg { padding-right: 4px; }
+
+/* label um pouco menor que o normal */
+
+.lbl-sml {
+	font-size: 8pt;
+}
+
+/* horizontal rule */
+
+.mpr-hr {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #7b7b7b;
+	padding-bottom: 1px;
+	width: 100%;
+}
